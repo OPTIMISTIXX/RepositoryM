@@ -1,0 +1,13 @@
+body{
+	background:white;
+}
+.wrapper{
+	width:1200px;
+	margin:0 auto;
+	display:grid;
+	grid-template-areas:
+	"h h"
+	"s c";
+	grid-template-rows:60px 800px;
+	grid-template-columns:2fr 10fr;
+}
